@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args){
         DiceCollection diceCol = new DiceCollection();
 
-        diceCol.dSixDie();
-
+        diceCol.rollTheDice("d4");
+        
     }
 }
