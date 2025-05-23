@@ -5,7 +5,7 @@ import se.kth.iv1350.inheritancecomposition.inheritance.*;
 
 public class Main {
     public static void main(String[] args){
-        DiceCollection diceCol = new DiceCollection();
+        DiceCollectionComposition diceCol = new DiceCollectionComposition();
 
         diceCol.rollTheDice("d4");
         
