@@ -1,7 +1,6 @@
 package se.kth.iv1350.inheritancecomposition.inheritance;
 
 import java.util.Random;
-
 public class DiceCollectionInheritence extends Random{
 
     private final int d4Bound = 4;
@@ -29,7 +28,26 @@ public class DiceCollectionInheritence extends Random{
 
     }
 
-    
+        /**
+     * The function of rolling a die.
+     * @param diceType A string selecting the dice type to be rolled.
+     */
+    public void rollTheDice(String diceType){
+        
+    }
+
+
+
+    private boolean isDiceTypeValid(String diceType){
+        try{
+            DiceType.valueOf(diceType.toUpperCase()); 
+            return true;
+        }catch(IllegalArgumentException e){
+            return false;
+        }
+    }
+
+
     
     
 }

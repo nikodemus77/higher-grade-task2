@@ -78,32 +78,12 @@ public class DiceCollectionComposition{
     }
 
     private boolean isDiceTypeValid(String diceType){
-        
         try{
             DiceType.valueOf(diceType.toUpperCase()); 
             return true;
         }catch(IllegalArgumentException e){
             return false;
         }
-
-
-
     }
-
-
-    
-    
-    
-
-
-
-
-   
-
-
-
-
-    
-
 
 }
