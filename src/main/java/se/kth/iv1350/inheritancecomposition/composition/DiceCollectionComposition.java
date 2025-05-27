@@ -71,7 +71,7 @@ public class DiceCollectionComposition{
             if(result == 0){
                 result = bound;
             }
-            System.out.println("The die shows a: " + result);
+            System.out.println("The die " +  type +  " shows a: " + result);
         }else{
             System.out.println("Dice type not available!" + "Available dice types are currently: D4, D6, D8, D10, D12, D20");
         }
